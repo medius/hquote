@@ -14,7 +14,7 @@
 # :adj_close=>"346.67"}, .... ]
 
 # Credit: This work is derived from John Yerhot's rQuote plugin
-# git://github.com/johnyerhot/rquote.git
+# https://github.com/johnyerhot/rquote
 
 class Hquote
   require 'cgi'

@@ -21,7 +21,6 @@ class Hquote
   require 'net/http'
 
   @@service_uri = "http://ichart.finance.yahoo.com/table.csv"
-  #"?s=GE&a=11&b=2&c=2010&d=02&e=14&f=2011&g=d&ignore=.csv"
   
   # We pass a quote_req hash that contains all the arguments for our request
   def get_ohlcv(quote_req)

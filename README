@@ -7,8 +7,7 @@ Usage:
 -----
 quote_req = {:symbol=>"aapl",:start_month=>"0",:start_date=>"1",:start_year=>"2011",
 :end_month=>"2",:end_date=>"14",:end_year=>"2011",:period=>"d"}
-my_quote = Hquote.new
-my_quote.get_ohlcv(quote_req)
+Hquote.get_ohlcv(quote_req)
 
 => [{:date=>"2011-03-11", :open=>"345.33", :high=>"352.32", :low=>"345.00", 
 :close=>"351.99", :volume=>"16813300", :adj_close=>"351.99"}, {:date=>"2011-03-10", 

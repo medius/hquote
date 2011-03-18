@@ -50,7 +50,6 @@ class Hquote
     response = Net::HTTP.start(uri.host, uri.port) do |http|
       http.get completed_path
     end
-    print "Response:\n" + response.body
     return response.body
   end
   
